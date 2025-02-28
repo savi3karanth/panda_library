@@ -3,8 +3,7 @@ import pandas
 
 screen = turtle.Screen()
 screen.title("Guess State of US")
-with open("./us_blank_states_img.gif") as image_file:
-    image = image_file.read()
+image = "us_blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
 
